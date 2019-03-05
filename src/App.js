@@ -1,6 +1,8 @@
 import React, { Component } from 'react'
 
-import About from './About'
+import About from './pages/About'
+import Projects from './pages/Projects'
+import Blog from './pages/Blog'
 import './App.css'
 
 class App extends Component {
@@ -9,6 +11,8 @@ class App extends Component {
       <div>
         In App
         <About />
+        <Projects />
+        <Blog />
       </div>
     )
   }
