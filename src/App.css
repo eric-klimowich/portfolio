@@ -5,3 +5,7 @@ body {
   background-attachment: fixed;
   background-size: cover;
 }
+
+#my-name {
+  font-size: 500%;
+}
