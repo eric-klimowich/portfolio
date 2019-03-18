@@ -1,10 +1,19 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 
 const Projects = () => {
   return (
-    <div>
-      This app is about my projects.
-    </div>
+    <Fragment>
+      <div>
+        Teachers Helping Teachers
+      </div>
+      <div>
+        Kitty Kard Matching
+      </div>
+      <div>
+        TV Tracker
+      </div>
+    </Fragment>
+
   )
 }
 
