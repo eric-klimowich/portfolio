@@ -1,5 +1,7 @@
 import React, { Component } from 'react'
 
+import BlogEntry from './BlogEntry'
+
 class Blog extends Component {
 
   state = {
@@ -13,10 +15,11 @@ class Blog extends Component {
   }
 
   render() {
-    console.log(this.state.blogs)
+    // console.log(this.state.blogs)
     return (
       <div>
         This app is about my blog.
+        {this.state.blogs.map(entry => <BlogEntry key={entry.title} entry={entry} />)}
       </div>
     )
   }
