@@ -8,6 +8,27 @@ const Projects = () => {
         <p>
           Teachers Helping Teachers is a file-share application that allows teachers to upload or download lesson plans for free. While there are a number of sites and applications that exits with this capability, many are pay-per-lesson or subscription based. As a former teacher, I wanted to create this app to allow the free flow of ideas to assist new and veteran teachers alike, allowing new teachers to learn and veterans to share their wealth of knowledge.
         </p>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/eric-klimowich/teachers_help_teachers_frontend"
+        >
+          Github - Front End
+        </a>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://github.com/eric-klimowich/teachers_help_teachers_backend"
+        >
+          Github - Back End
+        </a>
+        <a
+          target="_blank"
+          rel="noopener noreferrer"
+          href="https://youtu.be/UeN8Hmvk0MU"
+        >
+          Demo
+        </a>
       </div>
       <div>
         <h1>Kitty Kard Matching</h1>
