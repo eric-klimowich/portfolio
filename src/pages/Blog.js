@@ -19,7 +19,7 @@ class Blog extends Component {
     return (
       <div>
         This app is about my blog.
-        {this.state.blogs.map(entry => <BlogEntry key={entry.title} entry={entry} />)}
+        {this.state.blogs.map(entry => <BlogEntry key={entry.pubDate} entry={entry} />)}
       </div>
     )
   }
