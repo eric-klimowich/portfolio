@@ -1,7 +1,7 @@
 import React from 'react'
 
 const BlogCategory = props => {
-  console.log(props)
+  // console.log(props)
   return (
     <div>
       {props.category}
