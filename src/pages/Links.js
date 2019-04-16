@@ -3,10 +3,6 @@ import React from 'react'
 const Links = () => {
   return (
     <div>
-      <div id="my-name">
-        Eric Klimowich
-      </div>
-      <div>
       <a target="_blank" rel="noopener noreferrer" href="https://github.com/eric-klimowich">
         <i className="ui github icon"></i>
       </a>
@@ -19,7 +15,6 @@ const Links = () => {
       <a target="_blank" rel="noopener noreferrer" href="mailto:eric.klimowich@gmail.com">
         <i className="ui envelope icon"></i>
       </a>
-      </div>
     </div>
   )
 }
