@@ -5,12 +5,12 @@ const Projects = () => {
     <Fragment>
       <h1 className="projects-title">My projects</h1>
       <div className="project">
-        <h1>Teachers Helping Teachers</h1>
-        <p>
+        <h1 className="project__title">Teachers Helping Teachers</h1>
+        <p className="project__description">
           Teachers Helping Teachers is a file-share application that allows teachers to upload or download lesson plans for free. While there are a number of sites and applications that exits with this capability, many are pay-per-lesson or subscription based. As a former teacher, I wanted to create this app to allow the free flow of ideas to assist new and veteran teachers alike, allowing new teachers to learn and veterans to share their wealth of knowledge.
         </p>
-        <ul>
-          <li>
+        <ul className="project__links">
+          <li className="project__link">
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -19,7 +19,7 @@ const Projects = () => {
               Github - Front End
             </a>
           </li>
-          <li>
+          <li className="project__link">
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -28,7 +28,7 @@ const Projects = () => {
               Github - Back End
             </a>
           </li>
-          <li>
+          <li className="project__link">
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -40,12 +40,12 @@ const Projects = () => {
         </ul>
       </div>
       <div className="project">
-        <h1>Kitty Kard Matching</h1>
-        <p>
+        <h1 className="project__title">Kitty Kard Matching</h1>
+        <p className="project__description">
           Kitty Kard Matching is a game for fans of cats and the old card game Memory. Users enter their name and then click on cards to "flip" them, revealing pictures of cats. Users try to complete matches as quickly as possible. A timer begins at the start of the game and stops upon completion of the final match. The user's time is their final score and is then displayed among the best times.
         </p>
-        <ul>
-          <li>
+        <ul className="project__links">
+          <li className="project__link">
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -54,7 +54,7 @@ const Projects = () => {
               Github - Front End
             </a>
           </li>
-          <li>
+          <li className="project__link">
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -63,7 +63,7 @@ const Projects = () => {
               Github - Back End
             </a>
           </li>
-          <li>
+          <li className="project__link">
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -75,12 +75,12 @@ const Projects = () => {
         </ul>
       </div>
       <div className="project">
-        <h1>TV Tracker</h1>
-        <p>
+        <h1 className="project__title">TV Tracker</h1>
+        <p className="project__description">
           TV Tracker is an application in which users can record and track the television series they are watching. Users can log individual shows, what season and episode they are currently on, and whether a show is on the to watch list, being currently watched, or is completed. Shows can be viewed based on what entertainment platform they are on and analytics let users compare platforms. Users can evaluate whether platforms in use are cost effective.
         </p>
-        <ul>
-          <li>
+        <ul className="project__links">
+          <li className="project__link">
             <a
               target="_blank"
               rel="noopener noreferrer"
@@ -89,7 +89,7 @@ const Projects = () => {
               Github
             </a>
           </li>
-          <li>
+          <li className="project__link">
             <a
               target="_blank"
               rel="noopener noreferrer"

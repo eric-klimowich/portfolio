@@ -3,14 +3,14 @@ import React, { Fragment } from 'react'
 const About = () => {
   return (
     <Fragment>
-      <div>
+      <div className="image">
         <img
           className="profile-image"
           src="/images/profile_picture.jpg"
           alt="Eric's Profile"
         />
       </div>
-      <div>
+      <div className="bio">
         <p>
           Hi, I'm Eric. I'm a full stack developer with a passion for creating stuff.
         </p>

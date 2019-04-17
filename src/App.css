@@ -1,7 +1,7 @@
 .main-header {
   width: 100%;
   background: gray;
-  padding: 20px 10px;
+  padding: 20px 0;
 }
 
 .main-header a {
@@ -27,12 +27,13 @@
 .main-header__title {
   font-weight: bold;
   font-size: 22px;
+  margin-left: 16px;
 }
 
 .main-nav {
   display: inline-block;
   text-align: right;
-  width: calc(100% - 150px);
+  width: calc(100% - 170px);
   vertical-align: middle;
 }
 
@@ -74,10 +75,22 @@
   color: blue;
 }
 
+.image {
+  display: inline-block;
+  width: 40%;
+}
+
+.bio {
+  display: inline-block;
+  width: 40%;
+  padding-left: 16px;
+  border-left: 2px solid rgba(27, 43, 64, 0.95);
+}
+
 .profile-image {
   width: 128px;
   height: 128px;
-  border: 2px solid gray;
+  border: 2px solid rgba(27, 43, 64, 0.95);
   border-radius: 50%;
 }
 
@@ -87,8 +100,8 @@
 
 .project {
   width: 80%;
-  padding: 16px 0;
-  border: 4px solid red;
+  padding: 16px 32px;
+  border: 4px solid rgba(27, 43, 64, 0.95);
   margin: 16px 0;
   border-left: none;
   /* background: red;
@@ -101,15 +114,25 @@
   box-shadow: 2px 2px 2px 2px; */
 }
 
+.project__title {
+
+}
+
+.project__description {
+  padding: 16px;
+  border: 1px solid gray;
+}
+
 .blogs-title {
   text-align: center;
 }
 
 .blog {
-  background: red;
+  background: rgba(27, 43, 64, 0.95);
   text-align: center;
   padding: 16px;
   margin: 32px;
+  border-radius: 4px;
   /* display: inline-block; */
   /* width: 30%; */
   vertical-align: middle;
@@ -118,6 +141,7 @@
 
 .blog-title {
   text-align: center;
+  color: rgb(148, 151, 156);
 }
 
 .blog-categories-container {
@@ -134,7 +158,7 @@
 
 .blog-category {
   background: white;
-  color: red;
+  color: rgb(27, 43, 64);
   padding: 8px;
   margin: 0 16px;
   border-radius: 8px;
@@ -145,6 +169,7 @@
 
 .blog-description {
   padding: 10px 0;
+  color: rgb(148, 151, 156);
 }
 
 p::first-letter {
