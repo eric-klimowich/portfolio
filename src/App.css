@@ -67,6 +67,21 @@
   text-align: center;
 }
 
+.blog {
+  background: red;
+  text-align: center;
+  padding: 16px;
+  margin: 8px;
+  /* display: inline-block; */
+  /* width: 30%; */
+  vertical-align: middle;
+  box-shadow: 2px 2px 2px 2px;
+}
+
+.blog-title {
+  text-align: center;
+}
+
 .blog-categories-container {
   text-align: center;
 }
