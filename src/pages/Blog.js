@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component, Fragment } from 'react'
 
 import BlogEntry from './BlogEntry'
 
@@ -17,10 +17,10 @@ class Blog extends Component {
   render() {
     // console.log(this.state.blogs)
     return (
-      <div>
-        This app is about my blog.
+      <Fragment>
+        <h1 className="blogs-title">My blogs</h1>
         {this.state.blogs.map(entry => <BlogEntry key={entry.pubDate} entry={entry} />)}
-      </div>
+      </Fragment>
     )
   }
 }

@@ -7,12 +7,18 @@ const BlogEntry = props => {
   // console.log(props)
   return (
     <div>
-      {props.entry.title}
-      {props.entry.categories.map(category => <BlogCategory key={uuid.v4()} category={category} />)}
-      {props.entry.description.slice(0, 110).replace(/<p>|<h3>|<\/p>|<\/h3>/g, '')}
-      <a target="_blank" rel="noopener noreferrer" href={props.entry.link}>
-        (more...)
-      </a>
+      <h1>{props.entry.title}</h1>
+      <div className="blog-categories-container">
+        <ul className="blog-categories">
+          {props.entry.categories.map(category => <BlogCategory key={uuid.v4()} category={category} />)}
+        </ul>
+      </div>
+      <div className="blog-descriptions">
+        {props.entry.description.slice(0, 200).replace(/<.*>/g, '')}
+        <a target="_blank" rel="noopener noreferrer" href={props.entry.link}>
+          (more...)
+        </a>
+      </div>
     </div>
   )
 }
