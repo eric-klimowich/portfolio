@@ -3,7 +3,7 @@ import React from 'react'
 const About = () => {
   return (
     <div>
-      <img className="ui medium circular image" src="/images/profile_picture.jpg" alt="Eric's Profile" />
+      <img className="profile-image" src="/images/profile_picture.jpg" alt="Eric's Profile" />
       <p>
         Hi, I'm Eric. I'm a full stack developer with a passion for creating stuff.
       </p>

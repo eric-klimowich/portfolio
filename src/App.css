@@ -48,6 +48,13 @@
   font-weight: bold;
 }
 
+.profile-image {
+  width: 128px;
+  height: 128px;
+  border: 2px solid gray;
+  border-radius: 50%;
+}
+
 .projects-title {
   text-align: center;
 }
@@ -94,9 +101,14 @@
 }
 
 .blog-category {
-  display: inline-block;
+  background: white;
+  color: red;
+  padding: 8px;
   margin: 0 16px;
+  border-radius: 8px;
+  display: inline-block;
   font-weight: bold;
+  box-shadow: 2px 2px 2px 2px black;
 }
 
 p::first-letter {
