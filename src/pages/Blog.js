@@ -1,6 +1,7 @@
 import React, { Component, Fragment } from 'react'
 
 import BlogEntry from './BlogEntry'
+import Footer from '../Footer'
 
 class Blog extends Component {
 
@@ -20,6 +21,7 @@ class Blog extends Component {
       <Fragment>
         <h1 className="blogs-title">My blogs</h1>
         {this.state.blogs.map(entry => <BlogEntry key={entry.pubDate} entry={entry} />)}
+      <Footer />
       </Fragment>
     )
   }

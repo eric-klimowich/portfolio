@@ -1,5 +1,7 @@
 import React, { Fragment } from 'react'
 
+import Footer from '../Footer'
+
 const Projects = () => {
   return (
     <Fragment>
@@ -100,6 +102,7 @@ const Projects = () => {
           </li>
         </ul>
       </div>
+    <Footer />
     </Fragment>
 
   )

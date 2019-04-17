@@ -1,5 +1,7 @@
 import React, { Fragment } from 'react'
 
+import Footer from '../Footer'
+
 const About = () => {
   return (
     <Fragment>
@@ -24,6 +26,7 @@ const About = () => {
           When I'm not coding, I love going to sporting events, running, other stuff. Otherwise, I'm probably snuggling with my cats, Jack, Walter, Penny, and Olivia.
         </p>
       </div>
+    <Footer />
     </Fragment>
   )
 }
