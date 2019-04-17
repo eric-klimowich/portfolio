@@ -18,7 +18,7 @@ const Projects = () => {
               rel="noopener noreferrer"
               href="https://github.com/eric-klimowich/teachers_help_teachers_frontend"
             >
-              Github - Front End
+              <img className="octocat-image" src="/images/Octocat.png" alt=""/> - Front End
             </a>
           </li>
           <li className="project__link">
@@ -27,7 +27,7 @@ const Projects = () => {
               rel="noopener noreferrer"
               href="https://github.com/eric-klimowich/teachers_help_teachers_backend"
             >
-              Github - Back End
+              <img className="octocat-image" src="/images/Octocat.png" alt=""/> - Back End
             </a>
           </li>
           <li className="project__link">
@@ -53,7 +53,7 @@ const Projects = () => {
               rel="noopener noreferrer"
               href="https://github.com/eric-klimowich/matcher_frontend"
             >
-              Github - Front End
+              <img className="octocat-image" src="/images/Octocat.png" alt=""/> - Front End
             </a>
           </li>
           <li className="project__link">
@@ -62,7 +62,7 @@ const Projects = () => {
               rel="noopener noreferrer"
               href="https://github.com/eric-klimowich/matcher_backend"
             >
-              Github - Back End
+              <img className="octocat-image" src="/images/Octocat.png" alt=""/> - Back End
             </a>
           </li>
           <li className="project__link">
@@ -88,7 +88,7 @@ const Projects = () => {
               rel="noopener noreferrer"
               href="https://github.com/eric-klimowich/tv-tracker"
             >
-              Github
+              <img className="octocat-image" src="/images/Octocat.png" alt=""/>
             </a>
           </li>
           <li className="project__link">
