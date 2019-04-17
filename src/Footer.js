@@ -1,8 +1,12 @@
 import React from 'react'
 
+import Links from './pages/Links'
+
 const Footer = () => {
   return (
-    <div>In Footer</div>
+    <footer className="main-footer">
+      <Links />
+    </footer>
   )
 }
 
