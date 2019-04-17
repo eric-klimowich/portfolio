@@ -32,8 +32,6 @@ const Links = () => {
       </li>
       <li className="link">
         <a
-          target="_blank"
-          rel="noopener noreferrer"
           href="mailto:eric.klimowich@gmail.com"
         >
           Email
