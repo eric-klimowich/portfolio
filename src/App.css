@@ -144,6 +144,26 @@
 
 }
 
+.project__links {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.project__link {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  vertical-align: middle;
+}
+
+.b-and-w-octocat-image {
+  height: 30px;
+  width: 30px
+}
+
 .project__description {
   padding: 16px;
   border: 1px solid gray;

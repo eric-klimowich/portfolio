@@ -18,7 +18,7 @@ const Projects = () => {
               rel="noopener noreferrer"
               href="https://github.com/eric-klimowich/teachers_help_teachers_frontend"
             >
-              <img className="octocat-image" src="/images/Octocat.png" alt=""/> - Front End
+              <img className="b-and-w-octocat-image" src="/images/GitHub-Mark-120px-plus.png" alt=""/> - Front End
             </a>
           </li>
           <li className="project__link">
@@ -27,7 +27,7 @@ const Projects = () => {
               rel="noopener noreferrer"
               href="https://github.com/eric-klimowich/teachers_help_teachers_backend"
             >
-              <img className="octocat-image" src="/images/Octocat.png" alt=""/> - Back End
+              <img className="b-and-w-octocat-image" src="/images/GitHub-Mark-120px-plus.png" alt=""/> - Back End
             </a>
           </li>
           <li className="project__link">
@@ -53,7 +53,7 @@ const Projects = () => {
               rel="noopener noreferrer"
               href="https://github.com/eric-klimowich/matcher_frontend"
             >
-              <img className="octocat-image" src="/images/Octocat.png" alt=""/> - Front End
+              <img className="b-and-w-octocat-image" src="/images/GitHub-Mark-120px-plus.png" alt=""/> - Front End
             </a>
           </li>
           <li className="project__link">
@@ -62,7 +62,7 @@ const Projects = () => {
               rel="noopener noreferrer"
               href="https://github.com/eric-klimowich/matcher_backend"
             >
-              <img className="octocat-image" src="/images/Octocat.png" alt=""/> - Back End
+              <img className="b-and-w-octocat-image" src="/images/GitHub-Mark-120px-plus.png" alt=""/> - Back End
             </a>
           </li>
           <li className="project__link">
@@ -88,7 +88,7 @@ const Projects = () => {
               rel="noopener noreferrer"
               href="https://github.com/eric-klimowich/tv-tracker"
             >
-              <img className="octocat-image" src="/images/Octocat.png" alt=""/>
+              <img className="b-and-w-octocat-image" src="/images/GitHub-Mark-120px-plus.png" alt=""/>
             </a>
           </li>
           <li className="project__link">
