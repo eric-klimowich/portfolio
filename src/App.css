@@ -159,6 +159,11 @@
   vertical-align: middle;
 }
 
+.youtube-image {
+  height: 30px;
+  width: 40px
+}
+
 .b-and-w-octocat-image {
   height: 30px;
   width: 30px

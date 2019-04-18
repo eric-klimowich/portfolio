@@ -36,6 +36,7 @@ const Projects = () => {
               rel="noopener noreferrer"
               href="https://youtu.be/UeN8Hmvk0MU"
             >
+            <img className="youtube-image" src="/images/yt_icon_rgb.png" alt=""/>
               Demo
             </a>
           </li>
@@ -71,6 +72,7 @@ const Projects = () => {
               rel="noopener noreferrer"
               href="https://youtu.be/gouFYgQcbLc"
             >
+            <img className="youtube-image" src="/images/yt_icon_rgb.png" alt=""/>
               Demo
             </a>
           </li>
@@ -97,6 +99,7 @@ const Projects = () => {
               rel="noopener noreferrer"
               href="https://youtu.be/5Sm3BdEotU4"
             >
+            <img className="youtube-image" src="/images/yt_icon_rgb.png" alt=""/>
               Demo
             </a>
           </li>
