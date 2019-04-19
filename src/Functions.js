@@ -41,3 +41,25 @@ export const renderSingleGitRepo = props => {
     </li>
   )
 }
+
+export const renderLinkWithPageOpen = props => {
+  return (
+    <a
+      target="_blank"
+      rel="noopener noreferrer"
+      href={props.link}
+    >
+      <img className={props.nameOfClass} src={props.imgSrc} alt={props.imgAlt}/>
+    </a>
+  )
+}
+
+export const renderLinkWithoutPageOpen = props => {
+  return (
+    <a
+      href={props.link}
+    >
+      <img className={props.nameOfClass} src={props.imgSrc} alt={props.imgAlt}/>
+    </a>
+  )
+}

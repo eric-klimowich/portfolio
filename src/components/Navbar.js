@@ -22,8 +22,8 @@ const Navbar = () => {
             </Link>
           </li>
           <li className="main-nav__item">
-            <Link to="/blog">
-              Blog
+            <Link to="/blogs">
+              Blogs
             </Link>
           </li>
         </ul>

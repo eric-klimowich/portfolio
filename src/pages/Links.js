@@ -1,41 +1,41 @@
 import React from 'react'
 
+import Link from './Link'
+
 const Links = () => {
   return (
     <ul className="links">
       <li className="link">
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://github.com/eric-klimowich"
-        >
-          <img className="octocat-image" src="/images/Octocat.png" alt="Link to Eric Klimowich's Github page"/>
-        </a>
+        <Link
+          link="https://github.com/eric-klimowich"
+          nameOfClass="octocat-image"
+          imgSrc="/images/Octocat.png"
+          imgAlt="Link to Eric Klimowich's Github page"
+        />
       </li>
       <li className="link">
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://www.linkedin.com/in/eric-klimowich-523a8a56/"
-        >
-          <img className="linkedin-image" src="/images/In-2C-128px-TM.png" alt="Link to Eric Klimowich's LinkedIn page"/>
-        </a>
+        <Link
+          link="https://www.linkedin.com/in/eric-klimowich-523a8a56/"
+          nameOfClass="linkedin-image"
+          imgSrc="/images/In-2C-128px-TM.png"
+          imgAlt="Link to Eric Klimowich's LinkedIn page"
+        />
       </li>
       <li className="link">
-        <a
-          target="_blank"
-          rel="noopener noreferrer"
-          href="https://medium.com/@eric.klimowich"
-        >
-          <img className="medium-image" src="/images/Monogram.png" alt="Link to Eric Klimowich's Medium page"/>
-        </a>
+        <Link
+          link="https://medium.com/@eric.klimowich"
+          nameOfClass="medium-image"
+          imgSrc="/images/Monogram.png"
+          imgAlt="Link to Eric Klimowich's Medium page"
+        />
       </li>
       <li className="link">
-        <a
-          href="mailto:eric.klimowich@gmail.com"
-        >
-          <img className="email-image" src="/images/logo_gmail_128px.png" alt="Link to Eric Klimowich's email"/>
-        </a>
+        <Link
+          link="mailto:eric.klimowich@gmail.com"
+          nameOfClass="email-image"
+          imgSrc="/images/logo_gmail_128px.png"
+          imgAlt="Link to Eric Klimowich's email"
+        />
       </li>
     </ul>
   )
