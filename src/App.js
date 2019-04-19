@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import { BrowserRouter, Route } from 'react-router-dom'
 
 import Navbar from './components/Navbar'
-import Links from './pages/Links'
+import Home from './pages/Home'
 import About from './pages/About'
 import Projects from './pages/Projects'
 import Blog from './pages/Blog'
@@ -15,10 +15,10 @@ class App extends Component {
         <BrowserRouter>
           <div>
             <Navbar />
-            <Route path="/" exact component={Links} />
+            <Route path="/" exact component={Home} />
             <Route path="/about" exact component={About} />
             <Route path="/projects" exact component={Projects} />
-            <Route path="/blog" exact component={Blog} />
+            <Route path="/blogs" exact component={Blog} />
           </div>
         </BrowserRouter>
       </div>
