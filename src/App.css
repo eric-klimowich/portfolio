@@ -130,6 +130,7 @@
   border: 4px solid rgba(27, 43, 64, 0.95);
   margin: 16px 0;
   border-left: none;
+  background: rgba(27, 43, 64, 0.95);
   /* background: red;
   text-align: center;
   padding: 16px;
@@ -141,37 +142,44 @@
 }
 
 .project__title {
+  color: rgb(148, 151, 156)
+}
 
+.project__description {
+  padding: 16px;
+  border: 1px solid black;
+  background: rgb(148, 151, 156);
 }
 
 .project__links {
-  display: inline-block;
-  margin: 0;
-  padding: 0;
   list-style: none;
+  display: inline-block;
+}
+
+.project__link-container {
+  margin: 0 16px;
+  display: inline-block;
 }
 
 .project__link {
-  display: inline-block;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  vertical-align: middle;
+  padding: 23px 10px 5px;
+  border: 2px solid white;
+  background: rgb(148, 151, 156);
+}
+
+.project__link:hover {
+  padding: 23px 10px 5px;
+  border: 2px solid red;
 }
 
 .youtube-image {
   height: 30px;
-  width: 40px
+  width: 40px;
 }
 
 .b-and-w-octocat-image {
   height: 30px;
   width: 30px
-}
-
-.project__description {
-  padding: 16px;
-  border: 1px solid gray;
 }
 
 .blogs-title {
@@ -221,6 +229,16 @@
 .blog-description {
   padding: 10px 0;
   color: rgb(148, 151, 156);
+}
+
+.blog-link {
+  color: white;
+  text-decoration: none;
+}
+
+.blog-link:hover {
+  color: red;
+  text-decoration: none;
 }
 
 p::first-letter {

@@ -3,8 +3,9 @@ import React, { Fragment } from 'react'
 export const renderFrontAndBackGitRepo = props => {
   return (
     <Fragment>
-    <li className="project__link">
+    <li className="project__link-container">
       <a
+        className="project__link"
         target="_blank"
         rel="noopener noreferrer"
         href={props.frontEndLink}
@@ -12,8 +13,9 @@ export const renderFrontAndBackGitRepo = props => {
         <img className="b-and-w-octocat-image" src="/images/GitHub-Mark-120px-plus.png" alt=""/> - Front End
       </a>
     </li>
-    <li className="project__link">
+    <li className="project__link-container">
       <a
+        className="project__link"
         target="_blank"
         rel="noopener noreferrer"
         href={props.backEndLink}
@@ -27,8 +29,9 @@ export const renderFrontAndBackGitRepo = props => {
 
 export const renderSingleGitRepo = props => {
   return (
-    <li className="project__link">
+    <li className="project__link-container">
       <a
+        className="project__link"
         target="_blank"
         rel="noopener noreferrer"
         href={props.githubLink}
