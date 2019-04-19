@@ -26,6 +26,15 @@ const Navbar = () => {
               Blogs
             </Link>
           </li>
+          <li className="main-nav__item">
+            <a
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://drive.google.com/open?id=0B7jl9f0rvdyPeWZrYk1Zb3RmZDh1Sm0zYWZiYl9PZU1RUDVJ"
+            >
+              Resume
+            </a>
+          </li>
         </ul>
       </nav>
     </header>
