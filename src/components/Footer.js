@@ -1,6 +1,6 @@
 import React from 'react'
 
-import Links from './pages/Links'
+import Links from '../pages/Links'
 
 const Footer = () => {
   return (

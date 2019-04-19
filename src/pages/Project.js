@@ -1,6 +1,6 @@
 import React from 'react'
 
-import * as Functions from './Functions'
+import * as Functions from '../Functions'
 
 const Project = props => {
   console.log(props)

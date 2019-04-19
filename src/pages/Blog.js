@@ -1,7 +1,7 @@
 import React, { Component, Fragment } from 'react'
 
 import BlogEntry from './BlogEntry'
-import Footer from '../Footer'
+import Footer from '../components/Footer'
 
 class Blog extends Component {
 

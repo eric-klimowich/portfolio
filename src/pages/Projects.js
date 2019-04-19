@@ -1,7 +1,7 @@
 import React, { Fragment } from 'react'
 
-import Footer from '../Footer'
-import Project from '../Project'
+import Footer from '../components/Footer'
+import Project from './Project'
 
 import * as Constants from '../Constants'
 
