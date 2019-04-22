@@ -149,19 +149,21 @@
 }
 
 .project__description {
+  width: 70%;
   padding: 16px;
   border: 1px solid black;
   background: rgb(148, 151, 156);
+  display: inline-block;
 }
 
 .project__links {
+  width: 20%;
   list-style: none;
   display: inline-block;
 }
 
 .project__link-container {
-  margin: 0 16px;
-  display: inline-block;
+  margin: 24px 16px;
 }
 
 .project__link {
