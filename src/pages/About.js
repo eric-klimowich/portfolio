@@ -8,7 +8,7 @@ const About = () => {
       <div className="image">
         <img
           className="profile-image"
-          src="/images/profile_picture.jpg"
+          src="/images/pictures/profile_picture.jpg"
           alt="Eric's Profile"
         />
       </div>
