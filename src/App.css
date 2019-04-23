@@ -1,3 +1,9 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+/********** Styling for Navbar **********/
 .main-header {
   width: 100%;
   position: fixed;
@@ -5,8 +11,10 @@
   padding: 20px 0;
   top: 0;
   left: 0;
+  z-index: 1;
 }
 
+/********** Styling for text links in Navbar **********/
 .main-header a {
   text-decoration: none;
   color: black;
@@ -188,6 +196,19 @@
 .b-and-w-octocat-image {
   height: 30px;
   width: 30px
+}
+
+.blogs-background {
+  background-image: url("https://cdn.pixabay.com/photo/2016/02/25/16/57/blog-1222465_960_720.jpg");
+  /* background-size: 100%; */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+
 }
 
 .blogs-title {

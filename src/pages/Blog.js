@@ -19,6 +19,7 @@ class Blog extends Component {
     // console.log(this.state.blogs)
     return (
       <Fragment>
+        <div className="blogs-background"></div>
         <h1 className="blogs-title">My blogs</h1>
         {this.state.blogs.map(entry => <BlogEntry key={entry.pubDate} entry={entry} />)}
       <Footer />

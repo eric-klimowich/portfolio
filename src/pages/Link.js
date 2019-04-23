@@ -1,5 +1,3 @@
-import React from 'react'
-
 import { renderLinkWithPageOpen, renderLinkWithoutPageOpen } from '../Functions'
 
 const Link = props => {

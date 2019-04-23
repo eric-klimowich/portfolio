@@ -8,6 +8,7 @@ import * as Constants from '../Constants'
 const Projects = () => {
   return (
     <Fragment>
+      <div className="projects-background"></div>
       <h1 className="projects-title">My projects</h1>
       <Project
         description={Constants.teachersApp}
