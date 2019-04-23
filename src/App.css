@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  padding: 0;
+  padding-top: 45px;
 }
 
 /********** Styling for Navbar **********/
@@ -131,8 +131,22 @@ body {
   border-radius: 50%;
 }
 
+.projects-background {
+  background-image: url("https://ak3.picdn.net/shutterstock/videos/17025883/thumb/1.jpg");
+  /* background-size: 100%; */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
 .projects-title {
   text-align: center;
+  color: white;
+  padding-top: 20px;
 }
 
 .project {
@@ -150,18 +164,6 @@ body {
   /* width: 30%;
   vertical-align: middle;
   box-shadow: 2px 2px 2px 2px; */
-}
-
-.projects-background {
-  background-image: url("https://ak3.picdn.net/shutterstock/videos/17025883/thumb/1.jpg");
-  /* background-size: 100%; */
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  height: 100%;
-  width: 100%;
-  position: fixed;
-  z-index: -1;
 }
 
 .project__title {
@@ -224,6 +226,8 @@ body {
 
 .blogs-title {
   text-align: center;
+  color: white;
+  padding-top: 30px;
 }
 
 .blog {
