@@ -9,7 +9,7 @@ const Links = () => {
         <Link
           link="https://github.com/eric-klimowich"
           nameOfClass="octocat-image"
-          imgSrc="/images/Octocat.png"
+          imgSrc="/images/logos/Octocat.png"
           imgAlt="Link to Eric Klimowich's Github page"
         />
       </li>
@@ -17,7 +17,7 @@ const Links = () => {
         <Link
           link="https://www.linkedin.com/in/eric-klimowich-523a8a56/"
           nameOfClass="linkedin-image"
-          imgSrc="/images/In-2C-128px-TM.png"
+          imgSrc="/images/logos/In-2C-128px-TM.png"
           imgAlt="Link to Eric Klimowich's LinkedIn page"
         />
       </li>
@@ -25,7 +25,7 @@ const Links = () => {
         <Link
           link="https://medium.com/@eric.klimowich"
           nameOfClass="medium-image"
-          imgSrc="/images/Monogram.png"
+          imgSrc="/images/logos/Monogram.png"
           imgAlt="Link to Eric Klimowich's Medium page"
         />
       </li>
@@ -33,7 +33,7 @@ const Links = () => {
         <Link
           link="mailto:eric.klimowich@gmail.com"
           nameOfClass="email-image"
-          imgSrc="/images/logo_gmail_128px.png"
+          imgSrc="/images/logos/logo_gmail_128px.png"
           imgAlt="Link to Eric Klimowich's email"
         />
       </li>

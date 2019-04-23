@@ -19,7 +19,7 @@ const Project = props => {
             rel="noopener noreferrer"
             href={props.demoLink}
           >
-          <img className="youtube-image" src="/images/yt_icon_rgb.png" alt=""/>
+          <img className="youtube-image" src="/images/logos/yt_icon_rgb.png" alt=""/>
             Demo
           </a>
         </li>
