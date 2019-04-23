@@ -152,6 +152,18 @@ body {
   box-shadow: 2px 2px 2px 2px; */
 }
 
+.projects-background {
+  background-image: url("https://ak3.picdn.net/shutterstock/videos/17025883/thumb/1.jpg");
+  /* background-size: 100%; */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+}
+
 .project__title {
   color: rgb(148, 151, 156)
 }
@@ -208,7 +220,6 @@ body {
   width: 100%;
   position: fixed;
   z-index: -1;
-
 }
 
 .blogs-title {
