@@ -2,7 +2,7 @@ import React, { Fragment } from 'react'
 
 import Blurb from '../components/Blurb'
 import Footer from '../components/Footer'
-import { developerDescription, teacherDescription, directorDescription, runnerDescription } from '../Constants'
+import { developerDescription, teacherDescription, directorDescription, runnerDescription } from '../descriptions'
 
 const About = () => {
   return (

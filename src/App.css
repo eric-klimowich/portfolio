@@ -191,9 +191,9 @@ body {
   margin: 3px;
 }
 
-.projects-background {
+/* .projects-background {
   background-image: url("https://www.wallpapermaiden.com/image/2016/12/09/javascript-code-web-development-technology-10488-resized.png");
-  /* background-size: 100%; */
+  background-size: 100%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -201,11 +201,10 @@ body {
   width: 100%;
   position: fixed;
   z-index: -1;
-}
+} */
 
 .projects-title {
   text-align: center;
-  color: white;
   padding-top: 20px;
 }
 
@@ -277,9 +276,9 @@ body {
   width: 30px
 }
 
-.blogs-background {
+/* .blogs-background {
   background-image: url("https://cdn.pixabay.com/photo/2016/02/25/16/57/blog-1222465_960_720.jpg");
-  /* background-size: 100%; */
+  background-size: 100%;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -287,11 +286,10 @@ body {
   width: 100%;
   position: fixed;
   z-index: -1;
-}
+} */
 
 .blogs-title {
   text-align: center;
-  color: white;
   padding-top: 30px;
 }
 

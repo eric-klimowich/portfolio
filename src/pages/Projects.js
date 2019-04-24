@@ -2,8 +2,7 @@ import React, { Fragment } from 'react'
 
 import Footer from '../components/Footer'
 import Project from './Project'
-
-import * as Constants from '../Constants'
+import * as Constants from '../descriptions'
 
 const Projects = () => {
   return (
