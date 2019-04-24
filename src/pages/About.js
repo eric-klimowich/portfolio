@@ -26,6 +26,18 @@ const About = () => {
           When I'm not coding, I love going to sporting events, running, other stuff. Otherwise, I'm probably snuggling with my cats, Jack, Walter, Penny, and Olivia.
         </p>
       </div>
+      <div className="blurb">
+        <div className="blurb__info">
+          <h2 className="blurb__title">
+            Blurb Title
+          </h2>
+          <p>
+            Blah blah blah blah blah.
+          </p>
+        </div>
+        <div className="blurb__image--container">
+        </div>
+      </div>
     <Footer />
     </Fragment>
   )

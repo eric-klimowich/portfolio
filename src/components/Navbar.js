@@ -26,7 +26,7 @@ const Navbar = () => {
               Blogs
             </Link>
           </li>
-          <li className="main-nav__item">
+          <li className="main-nav__item main-nav__item--cta">
             <a
               target="_blank"
               rel="noopener noreferrer"
