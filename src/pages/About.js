@@ -1,23 +1,17 @@
 import React, { Fragment } from 'react'
 
+import Blurb from '../components/Blurb'
 import Footer from '../components/Footer'
+import { developerDescription } from '../Constants'
 
 const About = () => {
   return (
     <Fragment>
-      <div className="blurb">
-        <div className="blurb__info">
-          <h2 className="blurb__title">
-            Full Stack Web Developer
-          </h2>
-          <p className="blurb__text">
-            Hi, I'm Eric. I'm a full stack developer with a passion for education and working with communities. Utilizing my experience in Ruby on Rails, JavaScript, and React, I have built applications that streamline file sharing for teachers and track consumers’ usages. My background includes serving as a general education teacher and intervention specialist, as well as having a proven ability to manage and develop programs, staff, and budgets, effectively increasing revenue of non-profit organizations. As a developer, I hope to contribute to companies that invest in their communities, foster a diverse environment, and maintain a healthy fiscal and social approach.
-          </p>
-        </div>
-        <div className="blurb__image--container">
-          <img className="image" src="/images/pictures/atComputer.jpg"/>
-        </div>
-      </div>
+      <Blurb
+        title="Full Stack Web Developer"
+        description={developerDescription}
+        blurbImage="/images/pictures/atComputer.jpg"
+      />
       <div className="blurb">
       <div className="blurb__image--container">
         <img className="image" src="/images/pictures/teacher.jpg"/>
@@ -57,7 +51,7 @@ const About = () => {
           </p>
         </div>
       </div>
-    <Footer />
+      <Footer />
     </Fragment>
   )
 }
