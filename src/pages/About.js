@@ -7,6 +7,7 @@ import { developerDescription, teacherDescription, directorDescription, runnerDe
 const About = () => {
   return (
     <Fragment>
+      <h1 className="about-title">About Me</h1>
       <Blurb
         title="Full Stack Web Developer"
         description={developerDescription}
