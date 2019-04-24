@@ -125,23 +125,64 @@ body {
   vertical-align: middle;
 }
 
-.image {
+/* .image {
   display: inline-block;
   width: 40%;
-}
+} */
 
-.bio {
+/* .bio {
   display: inline-block;
   width: 40%;
   padding-left: 16px;
   border-left: 2px solid rgba(27, 43, 64, 0.95);
-}
+} */
 
-.profile-image {
+/* .profile-image {
   width: 128px;
   height: 128px;
   border: 2px solid rgba(27, 43, 64, 0.95);
   border-radius: 50%;
+} */
+
+.blurb {
+    font-size: 20px;
+    margin: 48px 0;
+  }
+
+  /* .testimonial__list {
+    width: 80%;
+    margin: auto;
+  } */
+
+.blurb__image--container {
+  width: 30%;
+  padding: 16px;
+  border: 5px solid black;
+  margin: 16px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.image {
+  width: 100%;
+}
+
+.blurb__info {
+  text-align: right;
+  padding: 14px;
+  display: inline-block;
+  vertical-align: middle;
+  width: 60%;
+}
+
+.blurb__title {
+  margin: 0;
+  font-size: 18px;
+  color: gray;
+}
+
+.blurb__text {
+  margin: 3px;
 }
 
 .projects-background {
