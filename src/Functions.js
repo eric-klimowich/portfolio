@@ -99,3 +99,24 @@ export const renderBlurbPicRight = props => {
     </div>
   )
 }
+
+export const renderBlurbPicBoth = props => {
+  return (
+    <div className="blurb">
+      <div className="blurb__image--container">
+        <img className="image" src={props.blurbImage}/>
+      </div>
+      <div className="blurb__info">
+        <h1 className="blurb__title">
+          {props.title}
+        </h1>
+        <p className="blurb__text">
+          {props.description}
+        </p>
+      </div>
+      <div className="blurb__image--container">
+        <img className="image" src={props.blurbImage2}/>
+      </div>
+    </div>
+  )
+}

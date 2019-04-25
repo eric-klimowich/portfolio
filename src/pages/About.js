@@ -31,12 +31,6 @@ const About = () => {
         blurbImage="/images/pictures/running.jpg"
       />
       <Blurb
-        title="Sports!"
-        description={sportsDescription}
-        blurbImage="/images/pictures/throwingToFirst.png"
-      />
-      <Blurb
-        picLeft="True"
         title="Comics for Life!"
         description={comicsDescription}
         blurbImage="/images/pictures/spideyAndMe.jpg"
@@ -46,6 +40,12 @@ const About = () => {
         title="Scuba"
         description={scubaDescription}
         blurbImage="/images/pictures/scubaSmile.png"
+      />
+      <Blurb
+      title="Sports!"
+      description={sportsDescription}
+      blurbImage={"/images/pictures/atTheReady.png"}
+      blurbImage2="/images/pictures/throwingToFirst.png"
       />
       <Footer />
     </Fragment>
