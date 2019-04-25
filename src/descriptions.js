@@ -11,3 +11,7 @@ export const teacherDescription = "Prior to becoming a developer, I was an eleme
 export const directorDescription = "Aquatics Director/Interim Healthy Lifestyles Director, YMCA. Program Director, Catholic Charities-Afterschool and Camp."
 
 export const runnerDescription = "Finishing the Queen Half Marathon. Got back to running and finished my second half marathon this year. Next year I plan to work up to a full marathon."
+
+export const sportsDescription = "I like to play sports."
+
+export const scubaDescription = "I love scuba diving!"
