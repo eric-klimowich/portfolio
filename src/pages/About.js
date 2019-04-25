@@ -2,7 +2,7 @@ import React, { Fragment } from 'react'
 
 import Blurb from '../components/Blurb'
 import Footer from '../components/Footer'
-import { developerDescription, teacherDescription, directorDescription, runnerDescription, sportsDescription, scubaDescription } from '../descriptions'
+import { developerDescription, teacherDescription, directorDescription, runnerDescription, sportsDescription, scubaDescription, comicsDescription } from '../descriptions'
 
 const About = () => {
   return (
@@ -34,6 +34,12 @@ const About = () => {
         title="Sports!"
         description={sportsDescription}
         blurbImage="/images/pictures/throwingToFirst.png"
+      />
+      <Blurb
+        picLeft="True"
+        title="Comics for Life!"
+        description={comicsDescription}
+        blurbImage="/images/pictures/spideyAndMe.jpg"
       />
       <Blurb
         picLeft="True"

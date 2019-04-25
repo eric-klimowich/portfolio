@@ -15,3 +15,5 @@ export const runnerDescription = "Finishing the Queen Half Marathon. Got back to
 export const sportsDescription = "I like to play sports."
 
 export const scubaDescription = "I love scuba diving!"
+
+export const comicsDescription = "I LOVE comics!"
