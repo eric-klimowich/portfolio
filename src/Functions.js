@@ -68,7 +68,7 @@ export const renderBlurbPicLeft = props => {
   return (
     <div className="blurb">
       <div className="blurb__image--container">
-        <img className="image" src={props.blurbImage}/>
+        <img className="blurb__image" src={props.blurbImage}/>
       </div>
       <div className="blurb__info">
         <h1 className="blurb__title">
@@ -94,7 +94,7 @@ export const renderBlurbPicRight = props => {
         </p>
       </div>
       <div className="blurb__image--container">
-        <img className="image" src={props.blurbImage}/>
+        <img className="blurb__image" src={props.blurbImage}/>
       </div>
     </div>
   )
@@ -103,10 +103,10 @@ export const renderBlurbPicRight = props => {
 export const renderBlurbPicBoth = props => {
   return (
     <div className="blurb">
-      <div className="blurb__image--container">
-        <img className="image" src={props.blurbImage}/>
+      <div className="blurb__image--container-left">
+        <img className="blurb__image" src={props.blurbImage}/>
       </div>
-      <div className="blurb__info">
+      <div className="blurb__info-center">
         <h1 className="blurb__title">
           {props.title}
         </h1>
@@ -114,8 +114,8 @@ export const renderBlurbPicBoth = props => {
           {props.description}
         </p>
       </div>
-      <div className="blurb__image--container">
-        <img className="image" src={props.blurbImage2}/>
+      <div className="blurb__image--container-right">
+        <img className="blurb__image" src={props.blurbImage2}/>
       </div>
     </div>
   )
