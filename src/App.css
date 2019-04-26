@@ -144,6 +144,25 @@ body {
   border-radius: 50%;
 } */
 
+/* .image {
+  display: inline-block;
+  width: 40%;
+} */
+
+/* .bio {
+  display: inline-block;
+  width: 40%;
+  padding-left: 16px;
+  border-left: 2px solid rgba(27, 43, 64, 0.95);
+} */
+
+/* .profile-image {
+  width: 128px;
+  height: 128px;
+  border: 2px solid rgba(27, 43, 64, 0.95);
+  border-radius: 50%;
+} */
+
 .about-title {
   text-align: center;
   padding-top: 20px;

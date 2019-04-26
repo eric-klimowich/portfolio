@@ -44,8 +44,8 @@ const About = () => {
       <Blurb
       title="Sports!"
       description={sportsDescription}
-      blurbImage={"/images/pictures/atTheReady.png"}
-      blurbImage2="/images/pictures/throwingToFirst.png"
+      blurbImage="/images/pictures/throwingToFirst.png"
+      blurbImage2="/images/pictures/atTheReady.png"
       />
       <Footer />
     </Fragment>
