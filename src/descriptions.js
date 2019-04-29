@@ -12,8 +12,8 @@ export const directorDescription = "Aquatics Director/Interim Healthy Lifestyles
 
 export const runnerDescription = "Finishing the Queen Half Marathon. Got back to running and finished my second half marathon this year. Next year I plan to work up to a full marathon."
 
-export const sportsDescription = "I like to play sports."
+export const sportsDescription = "One of the most fun weeks of my life, getting to suit up at Mets Fantasy Camp. While I don't get to do that every year, I do enjoy playing in softball leagues a couple times per year, as well as the occasional basketball league. When I'm not playing, I love attending games to support my favorite teams: the Mets, Nets, Giants, and Devils."
 
-export const scubaDescription = "I love scuba diving!"
+export const scubaDescription = "With the desire to be a part of the search and rescue team as an EMT on my hometown's first aid and rescue squad, I became scuba certified. That became a love and life of its own, becoming an assistant scuba instructor and having the opportunity to dive locally, as well as Grand Cayman, Cozumel, and Belize. My favorite dive site still? The Seas pavillion at Epcot in Walt Disney World."
 
-export const comicsDescription = "I LOVE comics!"
+export const comicsDescription = "As shown, before sports, scuba, and really anything else, there's been comics and superheroes. My love has only grown even more with the rise of the Marvel Cinematic Universe. I love reading through many storylines, old and new, through Marvel Unlimited. If this picture had a caption, it for sure would be, 'The more things change, the more they stay the same'."
