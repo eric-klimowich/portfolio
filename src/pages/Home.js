@@ -6,7 +6,6 @@ import Footer from '../components/Footer'
 const Home = () => {
   return (
     <Fragment>
-      <h1>This website is about me!</h1>
       <Blurb
         picLeft="True"
         title="Me"
