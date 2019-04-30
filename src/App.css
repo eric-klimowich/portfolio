@@ -7,7 +7,7 @@ body {
 .main-header {
   width: 100%;
   position: fixed;
-  background: gray;
+  background: rgb(122, 36, 4);
   padding: 20px 0;
   top: 0;
   left: 0;
@@ -228,7 +228,7 @@ body {
 .blurb__title {
   margin: 0;
   font-size: 18px;
-  color: gray;
+  color: rgb(122, 36, 4);
 }
 
 .blurb__text {
@@ -338,10 +338,9 @@ body {
 }
 
 .blog {
-  background: rgba(43, 32, 4, 0.99);
   text-align: center;
-  padding: 16px;
-  margin: 32px;
+  padding: 32px;
+  margin: 128px;
   border-radius: 4px;
   /* display: inline-block; */
   /* width: 30%; */
@@ -351,7 +350,6 @@ body {
 
 .blog-title {
   text-align: center;
-  color: rgb(204, 208, 215);
 }
 
 .blog-categories-container {
@@ -367,8 +365,8 @@ body {
 }
 
 .blog-category {
-  background: white;
-  color: rgb(27, 43, 64);
+  background: rgb(122, 36, 4);
+  color: white;
   padding: 8px;
   margin: 0 16px;
   border-radius: 8px;
@@ -379,11 +377,10 @@ body {
 
 .blog-description {
   padding: 10px 0;
-  color: rgb(204, 208, 215);
 }
 
 .blog-link {
-  color: white;
+  color: rgb(122, 36, 4);
   text-decoration: none;
 }
 
@@ -397,6 +394,6 @@ p::first-letter {
 }
 
 .main-footer {
-  background: gray;
+  background: rgb(122, 36, 4);
   padding: 16px;
 }
