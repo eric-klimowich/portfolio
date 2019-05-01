@@ -280,7 +280,8 @@ body {
   color: rgb(122, 36, 4);
 }
 
-.project__image-container {
+.project__screenshot-container {
+  width: 40%;
   padding-left: 16px;
   margin: 0 16px;
   display: inline-block;
@@ -292,6 +293,13 @@ body {
   padding: 8px;
   border: 5px solid black;
   box-shadow: 6px 6px 6px gray;
+}
+
+.project__description-container {
+  width: 40%;
+  margin-left: 64px;
+  display: inline-block;
+  vertical-align: middle;
 }
 
 .project__description {
