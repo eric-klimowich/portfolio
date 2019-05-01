@@ -324,7 +324,7 @@ body {
 .project__link {
   color: black;
   padding: 23px 10px 5px;
-  border: 2px solid white;
+  border: 2px solid black;
   background: rgb(122, 36, 4);
   border-radius: 4px
 }
