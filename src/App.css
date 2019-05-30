@@ -249,12 +249,12 @@ body {
 
 .projects-title {
   text-align: center;
-  padding-top: 20px;
+  padding-top: 1.2rem;
 }
 .blog {
   text-align: center;
-  padding: 32px;
-  margin: 64px 128px;
+  padding: 2rem;
+  margin: 4rem 8rem;
   border-radius: 4px;
   /* display: inline-block; */
   /* width: 30%; */
@@ -262,9 +262,9 @@ body {
   box-shadow: 2px 2px 2px 2px;
 }
 .project {
-  padding: 32px;
+  padding: 2rem;
   border-radius: 4px;
-  margin: 128px;
+  margin: 8rem;
   box-shadow: 2px 2px 2px 2px;
   /* background: red;
   text-align: center;
@@ -282,22 +282,22 @@ body {
 
 .project__screenshot-container {
   width: 40%;
-  padding-left: 16px;
-  margin: 0 16px;
+  padding-left: 1rem;
+  margin: 0 1rem;
   display: inline-block;
   vertical-align: middle;
 }
 
 .project__screenshot {
   width: 100%;
-  padding: 8px;
+  padding: 0.5rem;
   border: 5px solid black;
   box-shadow: 6px 6px 6px gray;
 }
 
 .project__description-container {
   width: 40%;
-  margin-left: 64px;
+  margin-left: 4rem;
   display: inline-block;
   vertical-align: middle;
 }
@@ -305,7 +305,7 @@ body {
 .project__description {
   color: white;
   width: 70%;
-  padding: 16px;
+  padding: 1rem;
   border: 1px solid black;
   background: rgb(122, 36, 4);
   display: inline-block;
@@ -318,32 +318,32 @@ body {
 }
 
 .project__link-container {
-  margin: 24px 16px;
+  margin: 1.5rem 1rem;
 }
 
 .project__link {
   color: black;
-  padding: 23px 10px 5px;
+  padding: 1.5rem 0.6rem 0.3rem;
   border: 2px solid black;
   background: rgb(122, 36, 4);
   border-radius: 4px
 }
 
 .project__link:hover {
-  padding: 23px 10px 5px;
+  padding: 1.5rem 0.6rem 0.3rem;
   border: 2px solid red;
   box-shadow: 2px 2px 2px 2px black;
   border-radius: 2px;
 }
 
 .youtube-image {
-  height: 30px;
-  width: 40px;
+  height: 2rem;
+  width: 3rem;
 }
 
 .b-and-w-octocat-image {
-  height: 30px;
-  width: 30px
+  height: 2rem;
+  width: 2rem
 }
 
 /* .blogs-background {
