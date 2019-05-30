@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  padding-top: 45px;
+  padding-top: 3rem;
 }
 
 /********** Styling for Navbar **********/
@@ -8,7 +8,7 @@ body {
   width: 100%;
   position: fixed;
   background: rgb(122, 36, 4);
-  padding: 20px 0;
+  padding: 1.2rem 0;
   top: 0;
   left: 0;
   z-index: 1;
@@ -18,7 +18,7 @@ body {
 .main-header a {
   text-decoration: none;
   color: white;
-  padding-bottom: 3px;
+  padding-bottom: 0.2rem;
 }
 
 .main-header a:hover {
@@ -37,8 +37,8 @@ body {
 
 .main-header__title {
   font-weight: bold;
-  font-size: 22px;
-  margin-left: 16px;
+  font-size: 1.5rem;
+  margin-left: 0.5rem;
 }
 
 .main-nav {
@@ -56,15 +56,15 @@ body {
 
 .main-nav__item {
   display: inline-block;
-  margin: 0 16px;
+  margin: 0 1rem;
   font-weight: bold;
 }
 
 .main-nav__item--cta a {
   color: white;
   background: black;
-  padding: 8px 16px;
-  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  border-radius: .5rem;
 }
 
 .main-nav__item--cta a:hover {
@@ -83,7 +83,7 @@ body {
 
 .link {
   display: inline-block;
-  margin: 0 48px;
+  margin: 0 3rem;
   vertical-align: middle;
 }
 
