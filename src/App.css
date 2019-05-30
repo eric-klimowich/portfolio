@@ -102,26 +102,26 @@ body {
 } */
 
 .octocat-image {
-  height: 100px;
-  width: 125px;
+  height: 6.25rem;
+  width: 7.8rem;
   vertical-align: middle;
 }
 
 .linkedin-image {
-  height: 72px;
-  width: 77px;
+  height: 5rem;
+  width: 5.5rem;
   vertical-align: middle;
 }
 
 .medium-image {
-  height: 70px;
-  width: 75px;
+  height: 5rem;
+  width: 5.5rem;
   vertical-align: middle;
 }
 
 .email-image {
-  height: 100px;
-  width: 100px;
+  height: 6.25rem;
+  width: 6.25rem;
   vertical-align: middle;
 }
 
