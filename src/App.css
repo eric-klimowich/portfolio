@@ -520,7 +520,7 @@ p::first-letter {
 
   .link {
     display: inline-block;
-    margin: 0 1rem;
+    margin: 0 0.8rem;
     vertical-align: middle;
   }
 
