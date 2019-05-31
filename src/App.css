@@ -424,3 +424,11 @@ p::first-letter {
   background: rgb(122, 36, 4);
   padding: 1rem;
 }
+
+@media (max-width: 40rem) {
+  .blog {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+  }
+}
