@@ -251,16 +251,7 @@ body {
   text-align: center;
   padding-top: 1.2rem;
 }
-.blog {
-  text-align: center;
-  padding: 2rem;
-  margin: 4rem 8rem;
-  border-radius: 4px;
-  /* display: inline-block; */
-  /* width: 30%; */
-  vertical-align: middle;
-  box-shadow: 2px 2px 2px 2px;
-}
+
 .project {
   padding: 2rem;
   border-radius: 4px;
@@ -366,7 +357,7 @@ body {
 .blog {
   text-align: center;
   padding: 2rem;
-  margin: 4rem 8rem;
+  margin: 3rem 3rem;
   border-radius: 4px;
   /* display: inline-block; */
   /* width: 30%; */
