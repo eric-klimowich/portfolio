@@ -427,8 +427,7 @@ p::first-letter {
 
 @media (max-width: 40rem) {
   .blog {
-    width: 100%;
-    margin: 0;
+    margin: 0 0.5rem 3rem;
     padding: 0;
   }
 }
