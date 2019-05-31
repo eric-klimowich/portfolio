@@ -430,4 +430,42 @@ p::first-letter {
     margin: 0 0.5rem 3rem;
     padding: 0;
   }
+
+  .links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .link {
+    display: inline-block;
+    margin: 0 1rem;
+    vertical-align: middle;
+  }
+
+  .octocat-image {
+    height: 3rem;
+    width: 4rem;
+    vertical-align: middle;
+  }
+
+  .linkedin-image {
+    height: 3rem;
+    width: 3.2rem;
+    vertical-align: middle;
+  }
+
+  .medium-image {
+    height: 3rem;
+    width: 3.2rem;
+    vertical-align: middle;
+  }
+
+  .email-image {
+    height: 4rem;
+    width: 4rem;
+    vertical-align: middle;
+  }
 }
