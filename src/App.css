@@ -254,8 +254,8 @@ body {
 
 .project {
   padding: 2rem;
+  margin: 4rem;
   border-radius: 4px;
-  margin: 8rem;
   box-shadow: 2px 2px 2px 2px;
   /* background: red;
   text-align: center;
@@ -268,6 +268,7 @@ body {
 }
 
 .project__title {
+  text-align: center;
   color: rgb(122, 36, 4);
 }
 
@@ -302,30 +303,29 @@ body {
   display: inline-block;
 }
 
-.project__link-container {
-  width: 100%;
-  margin: 1.5rem 1rem;
-}
-
 .project__links {
   list-style: none;
   text-align: center;
   vertical-align: middle;
 }
 
-
-.project__link {
-  color: black;
-  padding: 0.6rem 0.6rem 0.3rem;
-  border: 2px solid black;
-  background: rgb(122, 36, 4);
-  border-radius: 4px;
+.project__link-container {
+  margin: 1.5rem 1rem;
   display: inline-block;
   vertical-align: middle;
 }
 
+.project__link {
+  color: black;
+  padding: 1.6rem 0.6rem 0.3rem;
+  border: 2px solid black;
+  background: rgb(122, 36, 4);
+  border-radius: 4px;
+
+}
+
 .project__link:hover {
-  padding: 0.6rem 0.6rem 0.3rem;
+  /* padding: 0.6rem 0.6rem 0.3rem; */
   border: 2px solid red;
   box-shadow: 2px 2px 2px 2px black;
   border-radius: 2px;
