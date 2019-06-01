@@ -1,9 +1,16 @@
 import React from 'react'
+import MobileNavButton from './MobileNavButton'
 import { Link } from 'react-router-dom'
 
 const Navbar = () => {
   return (
     <header className="main-header">
+      <button class="toggle-button">
+          <span class="toggle-button__bar"></span>
+          <span class="toggle-button__bar"></span>
+          <span class="toggle-button__bar"></span>
+      </button>
+      <MobileNavButton />
       <div className="main-header__title">
         <Link to="/">
           Eric Klimowich
