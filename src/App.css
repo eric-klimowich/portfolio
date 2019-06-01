@@ -455,13 +455,19 @@ p::first-letter {
   }
 
   .project__description-container {
-    width: 80%;
+    width: 100%;
+    margin: auto;
+    padding: auto;
   }
 
   .project__description {
     color: white;
     border: 1px solid black;
     background: rgb(122, 36, 4);
+  }
+
+  .project__links-container {
+    width: 100%;
   }
 
   .project__link-container {
