@@ -6,7 +6,7 @@ const Project = props => {
   // console.log(props)
   return (
     <div className="project">
-      <h1 className="project__title">Teachers Helping Teachers</h1>
+      <h1 className="project__title">{props.title}</h1>
       <div className="project__screenshot-container">
         <img className="project__screenshot" src={props.screenshot} />
       </div>
