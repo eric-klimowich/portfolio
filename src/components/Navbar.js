@@ -4,9 +4,13 @@ import { Link } from 'react-router-dom'
 
 class Navbar extends Component {
 
+  handleShowMobileNav = () => {
+    console.log('clicked')
+  }
+
   render() {
     return (
-      <header className="main-header">
+      <header className="main-header" onClick={this.handleShowMobileNav}>
         <button class="toggle-button">
             <span class="toggle-button__bar"></span>
             <span class="toggle-button__bar"></span>
