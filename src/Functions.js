@@ -125,8 +125,8 @@ export const renderBlurbPicBoth = props => {
 
 export const renderNavbar = handleShowMobileNav => {
   return (
-    <header className="main-header" onClick={handleShowMobileNav}>
-      <button class="toggle-button">
+    <header className="main-header">
+      <button class="toggle-button" onClick={handleShowMobileNav}>
           <span class="toggle-button__bar"></span>
           <span class="toggle-button__bar"></span>
           <span class="toggle-button__bar"></span>
