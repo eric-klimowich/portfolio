@@ -4,8 +4,14 @@ import { Link } from 'react-router-dom'
 
 class Navbar extends Component {
 
+  state = {
+    clicked: false
+  }
+
   handleShowMobileNav = () => {
-    console.log('clicked')
+    this.setState({
+      clicked: !this.state.clicked
+    })
   }
 
   render() {
