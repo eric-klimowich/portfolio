@@ -1,5 +1,5 @@
 import React from 'react'
-import MobileNavButton from './MobileNavButton'
+import MobileNav from './MobileNav'
 import { Link } from 'react-router-dom'
 
 const Navbar = () => {
@@ -10,7 +10,7 @@ const Navbar = () => {
           <span class="toggle-button__bar"></span>
           <span class="toggle-button__bar"></span>
       </button>
-      <MobileNavButton />
+      <MobileNav />
       <div className="main-header__title">
         <Link to="/">
           Eric Klimowich

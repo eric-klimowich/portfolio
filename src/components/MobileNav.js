@@ -1,26 +1,26 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-const MobileNavButton = () => {
+const MobileNav = () => {
   return (
-    <nav class="mobile-nav">
-      <ul class="mobile-nav__items">
-        <li class="mobile-nav__item">
+    <nav className="mobile-nav">
+      <ul className="mobile-nav__items">
+        <li className="mobile-nav__item">
           <Link to="/about">
             About
           </Link>
         </li>
-        <li class="mobile-nav__item">
+        <li className="mobile-nav__item">
           <Link to="/projects">
             Projects
           </Link>
         </li>
-        <li class="mobile-nav__item">
+        <li className="mobile-nav__item">
           <Link to="/blogs">
             Blogs
           </Link>
         </li>
-        <li>
+        <li className="mobile-nav__item--cta">
           <a
             target="_blank"
             rel="noopener noreferrer"
@@ -34,4 +34,4 @@ const MobileNavButton = () => {
   )
 }
 
-export default MobileNavButton
+export default MobileNav

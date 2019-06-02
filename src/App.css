@@ -37,12 +37,12 @@ body {
 }
 
 .mobile-nav {
-  display: none;
+  /* display: none; */
   position: fixed;
   z-index: 2;
   top: 0;
   left: 0;
-  background: white;
+  background: rgb(122, 36, 4);
   width: 80%;
   height: 100vh;
 }
@@ -110,14 +110,16 @@ body {
   font-weight: bold;
 }
 
-.main-nav__item--cta a {
+.main-nav__item--cta a,
+.mobile-nav__item--cta a {
   color: white;
   background: black;
   padding: 0.5rem 1rem;
   border-radius: .5rem;
 }
 
-.main-nav__item--cta a:hover {
+.main-nav__item--cta a:hover,
+.mobile-nav__item--cta a:hover {
   color: black;
   background: white;
   border: none;
