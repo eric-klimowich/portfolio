@@ -12,7 +12,8 @@ export const renderFrontAndBackGitRepo = props => {
         rel="noopener noreferrer"
         href={props.frontEndLink}
       >
-        <img className="b-and-w-octocat-image" src="/images/logos/GitHub-Mark-120px-plus.png" alt=""/>Front End
+        <img className="b-and-w-octocat-image" src="/images/logos/GitHub-Mark-120px-plus.png" alt=""/>
+        <p>Front End</p>
       </a>
     </li>
     <li className="project__link-container">
@@ -22,7 +23,8 @@ export const renderFrontAndBackGitRepo = props => {
         rel="noopener noreferrer"
         href={props.backEndLink}
       >
-        <img className="b-and-w-octocat-image" src="/images/logos/GitHub-Mark-120px-plus.png" alt=""/>Back End
+        <img className="b-and-w-octocat-image" src="/images/logos/GitHub-Mark-120px-plus.png" alt=""/>
+        <p>Back End</p>
       </a>
     </li>
     </Fragment>
@@ -39,6 +41,7 @@ export const renderSingleGitRepo = props => {
         href={props.githubLink}
       >
         <img className="b-and-w-octocat-image" src="/images/logos/GitHub-Mark-120px-plus.png" alt=""/>
+        <p>Repo</p>
       </a>
     </li>
   )

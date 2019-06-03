@@ -29,8 +29,8 @@ const Project = props => {
               rel="noopener noreferrer"
               href={props.demoLink}
             >
-            <img className="youtube-image" src="/images/logos/yt_icon_rgb.png" alt={props.altDescription}/>
-              Demo
+              <img className="youtube-image" src="/images/logos/yt_icon_rgb.png" alt={props.altDescription}/>
+              <p>Demo</p>
             </a>
           </li>
         </ul>
