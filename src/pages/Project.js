@@ -8,7 +8,11 @@ const Project = props => {
     <div className="project">
       <h1 className="project__title">{props.title}</h1>
       <div className="project__screenshot-container">
-        <img className="project__screenshot" src={props.screenshot} />
+        <img
+          className="project__screenshot"
+          src={props.screenshot}
+          alt={props.altScreenshot}
+        />
       </div>
       <div className="project__description-container">
         <p className="project__description">
@@ -25,7 +29,7 @@ const Project = props => {
               rel="noopener noreferrer"
               href={props.demoLink}
             >
-            <img className="youtube-image" src="/images/logos/yt_icon_rgb.png" alt=""/>
+            <img className="youtube-image" src="/images/logos/yt_icon_rgb.png" alt={props.altDescription}/>
               Demo
             </a>
           </li>
