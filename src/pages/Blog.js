@@ -16,7 +16,7 @@ class Blog extends Component {
   }
 
   render() {
-    console.log(this.state.blogs)
+    // console.log(this.state.blogs)
     return (
       <Fragment>
         <div className="blogs-background"></div>
