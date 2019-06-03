@@ -1,10 +1,10 @@
-import React, { Component } from 'react'
-import MobileNav from './MobileNav'
-import { Link } from 'react-router-dom'
+import React from 'react'
+// import MobileNav from './MobileNav'
+// import { Link } from 'react-router-dom'
 import { renderNavbar } from '../Functions'
 import { renderMobileNav } from '../Functions'
 
-class Navbar extends Component {
+class Navbar extends React.Component {
 
   state = {
     showMobileNav: false
