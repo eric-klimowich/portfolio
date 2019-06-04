@@ -18,6 +18,7 @@ const BlogEntry = props => {
         </a>
       </div>
       <div className="blog-categories-container">
+        <h2 className="blog-categories__heading">Topic(s)</h2>
         <ul className="blog-categories">
           {props.entry.categories.map(category => <BlogCategory key={uuid.v4()} category={category} />)}
         </ul>
