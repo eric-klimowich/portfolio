@@ -258,7 +258,9 @@ body {
 }
 
 .project__screenshot-container {
-  /* width: 80%; */
+  width: 80%;
+  padding: 0;
+  margin: 0;
   /* padding-left: 1rem; */
   /* margin: 0 1rem; */
   /* display: inline-block; */
@@ -267,6 +269,8 @@ body {
 
 .project__screenshot {
   width: 100%;
+  padding: 0;
+  margin: 0;
   /* padding: 0.5rem; */
   border: 5px solid black;
   box-shadow: 6px 6px 6px gray;
@@ -666,7 +670,7 @@ body {
   }
 
   .project__screenshot-container {
-    /* width: 80%; */
+    width: 85%;
     /* padding-left: 1rem; */
     /* margin: 0 1rem; */
     /* display: inline-block; */
