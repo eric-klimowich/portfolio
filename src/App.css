@@ -528,6 +528,12 @@ body {
     margin: 0.3rem 0;
   }
 
+  .main-header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
   .main-nav {
     /* display: inline-block; */
     /* text-align: right; */
