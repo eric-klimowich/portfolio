@@ -4,7 +4,6 @@ import { Link } from 'react-router-dom'
 const MobileNav = () => {
   return (
     <nav className="mobile-nav">
-    <p> Click to close. </p>
       <ul className="mobile-nav__items">
         <li className="mobile-nav__item">
           <Link to="/about">
