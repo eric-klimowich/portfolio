@@ -592,7 +592,7 @@ body {
     width: 100%;
     padding: 0;
     margin: 0;
-    display: inline-block;
+    display: block;
     text-align: center;
     /* vertical-align: middle; */
   }
@@ -610,7 +610,7 @@ body {
     margin: 0;
     display: block;
     /* vertical-align: middle; */
-    width: 95%;
+    width: 92%;
     text-align: right;
   }
 
@@ -619,7 +619,7 @@ body {
     margin: 0;
     display: block;
     /* vertical-align: middle; */
-    width: 95%;
+    width: 92%;
     text-align: left;
   }
 
@@ -642,12 +642,14 @@ body {
   .blurb__text--left {
     padding: 0;
     margin: 0;
+    font-size: 1.1rem;
     text-align: left;
   }
 
   .blurb__text--right {
     padding: 0;
     margin: 0;
+    font-size: 1.1rem;
     text-align: right;
   }
 
