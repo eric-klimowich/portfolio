@@ -236,6 +236,10 @@ body {
   margin: 4rem;
   border-radius: 4px;
   box-shadow: 2px 2px 2px 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   /* background: red;
   text-align: center;
   padding: 16px;
@@ -252,53 +256,70 @@ body {
 }
 
 .project__screenshot-container {
-  width: 40%;
-  padding-left: 1rem;
-  margin: 0 1rem;
-  display: inline-block;
-  vertical-align: middle;
+  /* width: 80%; */
+  /* padding-left: 1rem; */
+  /* margin: 0 1rem; */
+  /* display: inline-block; */
+  /* vertical-align: middle; */
 }
 
 .project__screenshot {
   width: 100%;
-  padding: 0.5rem;
+  /* padding: 0.5rem; */
   border: 5px solid black;
   box-shadow: 6px 6px 6px gray;
 }
 
 .project__description-container {
-  width: 45%;
-  margin-left: 4rem;
-  display: inline-block;
-  vertical-align: middle;
+  width: 85%;
+  /* margin-left: 4rem; */
+  /* display: inline-block; */
+  /* vertical-align: middle; */
 }
 
 .project__description {
   color: white;
-  width: 90%;
+  /* width: 90%; */
   padding: 1rem;
   border: 1px solid black;
   background: rgb(122, 36, 4);
-  display: inline-block;
+  /* display: inline-block; */
+}
+
+.project__links-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .project__links {
+  width: 100%;
+  margin: 0;
+  padding: 0;
   list-style: none;
   text-align: center;
-  vertical-align: middle;
+  display: flex;
+  justify-content: space-around;
+  /* vertical-align: middle; */
 }
 
 .project__link-container {
-  margin: 1rem 5rem;
-  padding: 0.6rem 0.6rem 0.3rem;
-  display: inline-block;
-  vertical-align: middle;
+  margin: 0.5rem;
+  padding: 0;
+  /* display: inline-block; */
+  /* vertical-align: middle; */
+}
+
+.project__link-container p {
+  margin: 0;
+  padding: 0;
 }
 
 .project__link-container:hover {
-  padding: 0.6rem 0.6rem 0.3rem;
-  box-shadow: 2px 2px 2px 2px rgb(122, 36, 4);
-  border-radius: 2px;
+  /* padding: 0.6rem 0.6rem 0.3rem; */
+  /* box-shadow: 2px 2px 2px 2px rgb(122, 36, 4); */
+  /* border-radius: 2px; */
 }
 
 .project__link {
