@@ -548,8 +548,9 @@ body {
     top: 0;
     left: 0;
     background: rgb(122, 36, 4);
-    width: 80%;
+    width: 85%;
     height: 100vh;
+    border-right: 40px solid black;
   }
 
   .mobile-nav__items {
@@ -566,15 +567,29 @@ body {
   }
 
   .mobile-nav__item {
-    margin: 1rem 0;
+    margin: 3rem 0;
   }
 
   .mobile-nav__item--cta {
-    margin: 1.5rem 0;
+    margin: 3rem 0;
   }
 
   .mobile-nav__item a {
-    font-size: 1.5rem;
+    font-size: 3rem;
+  }
+
+  .mobile-nav__item--cta a {
+    color: white;
+    background: black;
+    font-size: 2.5rem;
+    padding: 0.5rem 1rem;
+    border-radius: .5rem;
+  }
+
+  .mobile-nav__item--cta a:hover {
+    color: black;
+    background: white;
+    border: none;
   }
 
   .main-nav__items {
