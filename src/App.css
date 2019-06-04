@@ -196,22 +196,24 @@ body {
 
 .blurb__title--left {
   margin: 0;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   color: rgb(122, 36, 4);
 }
 
 .blurb__title--right {
   margin: 0;
-  font-size: 1.2rem;
+  font-size: 1.6rem;
   color: rgb(122, 36, 4);
 }
 
 .blurb__text--left {
   margin: 0.2rem;
+  font-size: 1.4rem;
 }
 
 .blurb__text--right {
   margin: 0.2rem;
+  font-style: 1.4rem;
 }
 
 /* .projects-background {
@@ -279,6 +281,7 @@ body {
 
 .project__description {
   color: white;
+  font-size: 1.4rem;
   /* width: 90%; */
   padding: 1rem;
   border: 1px solid black;
@@ -305,7 +308,7 @@ body {
 }
 
 .project__link-container {
-  margin: 0.5rem;
+  margin: 1rem;
   padding: 0;
   /* display: inline-block; */
   /* vertical-align: middle; */
@@ -314,6 +317,7 @@ body {
 .project__link-container p {
   margin: 0;
   padding: 0;
+  font-size: 1.4rem;
 }
 
 .project__link-container:hover {
@@ -402,6 +406,7 @@ body {
   padding: 0;
   list-style: none;
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 
@@ -409,7 +414,7 @@ body {
   background: rgb(122, 36, 4);
   color: white;
   padding: 0.5rem;
-  margin: 0 1rem;
+  margin: 0.5rem 1rem;
   border-radius: 8px;
   /* display: inline-block; */
   font-weight: bold;
@@ -417,7 +422,7 @@ body {
 }
 
 .blog-description {
-  font-size: 1.1rem;
+  font-size: 1.4rem;
   padding: 0.6rem 0;
 }
 
@@ -431,9 +436,9 @@ body {
   text-decoration: none;
 }
 
-p::first-letter {
+/* p::first-letter {
   font-size: 1.2rem;
-}
+} */
 
 .main-footer {
   background: rgb(122, 36, 4);
@@ -763,39 +768,39 @@ p::first-letter {
     list-style: none;
     margin: 0;
     padding: 0;
-    display: flex;
-    flex-wrap: wrap;
-    /* text-align: center; */
-    /* vertical-align: middle; */
+    /* display: inline-block; */
+    /* flex-wrap: wrap; */
+    text-align: center;
+    vertical-align: middle;
   }
 
   .main-footer__link {
-    /* display: inline-block; */
-    /* margin: 0 0.4rem; */
-    /* vertical-align: middle; */
+    display: inline-block;
+    margin: 0 0.8rem;
+    vertical-align: middle;
   }
 
   .octocat-image {
     height: 3rem;
     width: 4rem;
-    /* vertical-align: middle; */
+    vertical-align: middle;
   }
 
   .linkedin-image {
     height: 3rem;
     width: 3.2rem;
-    /* vertical-align: middle; */
+    vertical-align: middle;
   }
 
   .medium-image {
     height: 3rem;
     width: 3.2rem;
-    /* vertical-align: middle; */
+    vertical-align: middle;
   }
 
   .email-image {
     height: 4rem;
     width: 4rem;
-    /* vertical-align: middle; */
+    vertical-align: middle;
   }
 }

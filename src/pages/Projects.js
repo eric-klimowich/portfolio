@@ -38,7 +38,6 @@ const Projects = () => {
         demoLink="https://youtu.be/5Sm3BdEotU4"
         altDescription="YouTube icon linking to a demo of my TV Tracker application."
       />
-    <Footer />
     </Fragment>
 
   )

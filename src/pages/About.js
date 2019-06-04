@@ -53,7 +53,6 @@ const About = () => {
       blurbImage="/images/pictures/throwingToFirst.png"
       altImage="Me, the 2nd baseman, making a play to 1st at 2012 NY Mets Fantasy Camp"
       />
-      <Footer />
     </Fragment>
   )
 }

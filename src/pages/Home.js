@@ -7,12 +7,10 @@ const Home = () => {
   return (
     <Fragment>
       <Blurb
-        picLeft="True"
         title="Me"
         description="Welcome to my website, the place to go for all things Eric Klimowich."
         blurbImage="/images/pictures/profile_picture.jpg"
       />
-      <Footer />
     </Fragment>
   )
 }

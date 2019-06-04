@@ -6,6 +6,7 @@ import Home from './pages/Home'
 import About from './pages/About'
 import Projects from './pages/Projects'
 import Blog from './pages/Blog'
+import Footer from './components/Footer'
 import './App.css'
 
 class App extends Component {
@@ -19,6 +20,7 @@ class App extends Component {
             <Route path="/about" exact component={About} />
             <Route path="/projects" exact component={Projects} />
             <Route path="/blogs" exact component={Blog} />
+            <Footer />
           </div>
         </BrowserRouter>
       </div>
