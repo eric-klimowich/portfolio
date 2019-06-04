@@ -37,7 +37,7 @@ const About = () => {
       <Blurb
         title="Comics for Life!"
         description={comicsDescription}
-        blurbImage="/images/pictures/spideyAndMe.jpg"
+        blurbImage="/images/pictures/IMG_3371.JPG"
         altImage="Me and Spidey, about 35 years ago on the left, today on the right"
       />
       <Blurb
