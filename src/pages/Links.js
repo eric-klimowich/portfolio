@@ -4,8 +4,8 @@ import Link from './Link'
 
 const Links = () => {
   return (
-    <ul className="links">
-      <li className="link">
+    <ul className="main-footer__links">
+      <li className="main-footer__link">
         <Link
           link="https://github.com/eric-klimowich"
           nameOfClass="octocat-image"
@@ -13,7 +13,7 @@ const Links = () => {
           imgAlt="Link to Eric Klimowich's Github page"
         />
       </li>
-      <li className="link">
+      <li className="main-footer__link">
         <Link
           link="https://www.linkedin.com/in/eric-klimowich-523a8a56/"
           nameOfClass="linkedin-image"
@@ -21,7 +21,7 @@ const Links = () => {
           imgAlt="Link to Eric Klimowich's LinkedIn page"
         />
       </li>
-      <li className="link">
+      <li className="main-footer__link">
         <Link
           link="https://medium.com/@eric.klimowich"
           nameOfClass="medium-image"
@@ -29,7 +29,7 @@ const Links = () => {
           imgAlt="Link to Eric Klimowich's Medium page"
         />
       </li>
-      <li className="link">
+      <li className="main-footer__link">
         <Link
           link="mailto:eric.klimowich@gmail.com"
           nameOfClass="email-image"

@@ -386,7 +386,7 @@ p::first-letter {
   padding: 1rem;
 }
 
-.links {
+.main-footer__links {
   list-style: none;
   margin: 0;
   padding: 0;
@@ -394,7 +394,7 @@ p::first-letter {
   vertical-align: middle;
 }
 
-.link {
+.main-footer__link {
   display: inline-block;
   margin: 0 3rem;
   vertical-align: middle;
