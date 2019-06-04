@@ -567,21 +567,21 @@ body {
   }
 
   .mobile-nav__item {
-    margin: 3rem 0;
+    margin: 2rem 0;
   }
 
   .mobile-nav__item--cta {
-    margin: 3rem 0;
+    margin: 2rem 0;
   }
 
   .mobile-nav__item a {
-    font-size: 3rem;
+    font-size: 2.5rem;
   }
 
   .mobile-nav__item--cta a {
     color: white;
     background: black;
-    font-size: 2.5rem;
+    font-size: 2rem;
     padding: 0.5rem 1rem;
     border-radius: .5rem;
   }
@@ -634,7 +634,7 @@ body {
     margin: 0;
     display: block;
     /* vertical-align: middle; */
-    width: 92%;
+    width: 90%;
     text-align: left;
   }
 
