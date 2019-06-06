@@ -538,7 +538,7 @@ h2 {
   .toggle-button__bar {
     width: 100%;
     height: 0.2rem;
-    background: black;
+    background: rgb(35, 166, 119);
     display: block;
     margin: 0.3rem 0;
   }
@@ -595,14 +595,14 @@ h2 {
 
   .mobile-nav__item--cta a {
     color: white;
-    background: black;
+    background: rgb(35, 166, 119);
     font-size: 2rem;
     padding: 0.5rem 1rem;
     border-radius: .5rem;
   }
 
   .mobile-nav__item--cta a:hover {
-    color: black;
+    color: rgb(35, 166, 119);
     background: white;
     border: none;
   }
@@ -657,7 +657,7 @@ h2 {
     padding: 0;
     margin: 0;
     font-size: 1.2rem;
-    color: rgb(19, 43, 166);
+    /* color: rgb(19, 43, 166); */
     text-align: left;
   }
 
@@ -665,7 +665,7 @@ h2 {
     padding: 0;
     margin: 0;
     font-size: 1.2rem;
-    color: rgb(19, 43, 166);
+    /* color: rgb(19, 43, 166); */
     text-align: right;
   }
 
@@ -704,7 +704,7 @@ h2 {
 
   .project__title {
     text-align: center;
-    color: rgb(19, 43, 166);
+    /* color: rgb(19, 43, 166); */
   }
 
   .project__screenshot-container {
@@ -733,8 +733,8 @@ h2 {
     color: white;
     /* width: 90%; */
     padding: 1rem;
-    border: 1px solid black;
-    background: rgb(19, 43, 166);
+    /* border: 1px solid black; */
+    /* background: rgb(19, 43, 166); */
     /* display: inline-block; */
   }
 
@@ -775,7 +775,7 @@ h2 {
   }
 
   .project__link {
-    color: black;
+    /* color: black; */
     /* padding: 1.6rem 0.6rem 0.3rem; */
     /* border: 2px solid black; */
     /* background: rgb(19, 43, 166); */
