@@ -3,6 +3,10 @@ body {
   padding-top: 3rem;
 }
 
+p {
+  font-family: 'Lato', sans-serif;
+}
+
 /********** Styling for Navbar **********/
 .main-header {
   width: 100%;
