@@ -81,14 +81,14 @@ h2 {
 .main-nav__item--cta a,
 .mobile-nav__item--cta a {
   color: white;
-  background: black;
+  background: rgb(35, 166, 119);
   padding: 0.5rem 1rem;
   border-radius: .5rem;
 }
 
 .main-nav__item--cta a:hover,
 .mobile-nav__item--cta a:hover {
-  color: black;
+  color: rgb(35, 166, 119);
   background: white;
   border: none;
 }
@@ -207,13 +207,13 @@ h2 {
 .blurb__title--left {
   margin: 0;
   font-size: 1.6rem;
-  color: rgb(19, 43, 166);
+  color: rgb(35, 166, 119);
 }
 
 .blurb__title--right {
   margin: 0;
   font-size: 1.6rem;
-  color: rgb(19, 43, 166);
+  color: rgb(35, 166, 119);
 }
 
 .blurb__text--left {
@@ -223,7 +223,7 @@ h2 {
 
 .blurb__text--right {
   margin: 0.2rem;
-  font-style: 1.4rem;
+  font-size: 1.4rem;
 }
 
 /* .projects-background {
@@ -264,7 +264,7 @@ h2 {
 
 .project__title {
   text-align: center;
-  color: rgb(19, 43, 166);
+  color: rgb(35, 166, 119);
 }
 
 .project__screenshot-container {
@@ -298,8 +298,9 @@ h2 {
   font-size: 1.4rem;
   /* width: 90%; */
   padding: 1rem;
-  border: 1px solid black;
-  background: rgb(19, 43, 166);
+  border: 3px solid rgb(19, 43, 166);
+  background: rgb(35, 166, 119);
+  border-radius: 8px;
   /* display: inline-block; */
 }
 
@@ -342,7 +343,7 @@ h2 {
 }
 
 .project__link {
-  color: black;
+  color: rgb(35, 166, 119);
   /* padding: 1.6rem 0.6rem 0.3rem; */
   /* border: 2px solid black; */
   /* background: rgb(19, 43, 166); */
@@ -401,7 +402,7 @@ h2 {
 }
 
 .blog-title {
-  color: rgb(19, 43, 166);
+  color: rgb(35, 166, 119);
   text-align: center;
 }
 
@@ -411,7 +412,7 @@ h2 {
 }
 
 .blog-categories__heading {
-  color: rgb(19, 43, 166);
+  color: rgb(35, 166, 119);
   text-align: center;
 }
 
@@ -427,7 +428,7 @@ h2 {
 
 .blog-category {
   background: rgb(19, 43, 166);
-  color: white;
+  color: rgb(35, 166, 119);
   padding: 0.5rem;
   margin: 0.5rem 1rem;
   border-radius: 8px;
@@ -444,7 +445,7 @@ h2 {
 }
 
 .blog-link {
-  color: rgb(19, 43, 166);
+  color: rgb(35, 166, 119);
   text-decoration: none;
   font-family: 'Lato', sans-serif;
 }
