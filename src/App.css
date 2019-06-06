@@ -629,10 +629,9 @@ h2 {
 
   .blurb__image {
     width: 85%;
-    padding: 0;
-    margin: 0;
-    border: none;
-    box-shadow: none;
+    margin: 1rem 0;
+    /* border: none;
+    box-shadow: none; */
   }
 
   .blurb__info--left {
