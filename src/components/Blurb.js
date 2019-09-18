@@ -9,24 +9,20 @@ class Blurb extends Component {
   componentDidMount() {
     $(".blurb__title--left").fadeOut(2000)
     let galleryImage = $(".blurb__image")
+
+    let i = 0
+    setInterval(function() {
+        i = (i + 1) % this.props.blurbImages.length
+        galleryImage.fadeOut(function() {
+            $(this).attr("src", this.props.blurbImages[i])
+            $(this).fadeIn()
+          })
+          console.log(galleryImage.attr("src"))
+        }, 2000)
   }
-// var images = [
-//   "images/laptop-mobile_small.jpg",
-//   "images/laptop-on-table_small.jpg",
-//   "images/people-office-group-team_small.jpg"
-// ]
-//
-// var i = 0
-// setInterval(function() {
-//   i = (i + 1) % images.length
-//   galleryImage.fadeOut(function() {
-//     $(this).attr("src", images[i])
-//     $(this).fadeIn()
-//   })
-//   console.log(galleryImage.attr("src"))
-// }, 2000)
 
   render() {
+    // console.log(this.props.blurbImages.length)
     return (
       <div className="blurb">
         <div className="blurb__info--left">
@@ -38,7 +34,7 @@ class Blurb extends Component {
           </p>
         </div>
         <div className="blurb__image--container">
-          <img className="blurb__image" src={this.props.blurbImage} alt={this.props.altImage}/>
+          <img className="blurb__image" src={this.props.blurbImages[0]} alt=""/>
         </div>
       </div>
     )
