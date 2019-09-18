@@ -8,7 +8,23 @@ class Blurb extends Component {
 
   componentDidMount() {
     $(".blurb__title--left").fadeOut(2000)
+    let galleryImage = $(".blurb__image")
   }
+// var images = [
+//   "images/laptop-mobile_small.jpg",
+//   "images/laptop-on-table_small.jpg",
+//   "images/people-office-group-team_small.jpg"
+// ]
+//
+// var i = 0
+// setInterval(function() {
+//   i = (i + 1) % images.length
+//   galleryImage.fadeOut(function() {
+//     $(this).attr("src", images[i])
+//     $(this).fadeIn()
+//   })
+//   console.log(galleryImage.attr("src"))
+// }, 2000)
 
   render() {
     return (
