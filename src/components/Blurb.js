@@ -8,12 +8,14 @@ class Blurb extends Component {
 
   componentDidMount() {
     $(".blurb__title--left").fadeOut(2000)
-    let galleryImage = $(".blurb__image")
+    const galleryImage = $(".blurb__image")
+    console.log(this.props.blurbImages)
 
     let i = 0
     setInterval(function() {
         i = (i + 1) % this.props.blurbImages.length
-        galleryImage.fadeOut(function() {
+        galleryImage.fadeOut()
+        (function() {
             $(this).attr("src", this.props.blurbImages[i])
             $(this).fadeIn()
           })
