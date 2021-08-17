@@ -160,7 +160,7 @@ export const renderNavbar = handleShowMobileNav => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://drive.google.com/open?id=0B7jl9f0rvdyPeWZrYk1Zb3RmZDh1Sm0zYWZiYl9PZU1RUDVJ"
+              href="https://drive.google.com/file/d/1UQ59HVKDNGwJnsyDXoH7qipwRLrwi0P7/view?usp=sharing"
             >
               Resume
             </a>
@@ -205,7 +205,7 @@ export const renderMobileNav = handleShowMobileNav => {
             <a
               target="_blank"
               rel="noopener noreferrer"
-              href="https://drive.google.com/open?id=0B7jl9f0rvdyPeWZrYk1Zb3RmZDh1Sm0zYWZiYl9PZU1RUDVJ"
+              href="https://drive.google.com/file/d/1UQ59HVKDNGwJnsyDXoH7qipwRLrwi0P7/view?usp=sharing"
             >
               Resume
             </a>
